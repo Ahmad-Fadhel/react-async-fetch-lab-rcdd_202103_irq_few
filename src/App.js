@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        {this.state.peopleInSpace.map((astronautInSpace) => <p>{astronautInSpace.name}</p>)}
+        {this.state.peopleInSpace.map((personInSpace) => <p>{personInSpace.name}</p>)}
       </div>
     )
   }
